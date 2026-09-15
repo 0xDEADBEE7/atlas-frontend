@@ -1,0 +1,48 @@
+.react-flow__handle {
+  width: 9px;
+  height: 9px;
+  background: #fff;
+  border: 1.5px solid #8aaa93;
+}
+.react-flow__handle:hover {
+  background: #588168;
+}
+.react-flow__edge.selected .react-flow__edge-path {
+  stroke: #37694c !important;
+  stroke-width: 2.5 !important;
+}
+.react-flow__edge-text {
+  font-size: 10px;
+  fill: #557160;
+}
+.react-flow__controls {
+  border: 1px solid #e0e6de;
+  box-shadow: 0 2px 5px #23372a08;
+  border-radius: 7px;
+  overflow: hidden;
+  bottom: 37px;
+  left: 10px;
+}
+.react-flow__controls-button {
+  border-color: #edf0eb;
+  fill: #607c66;
+  width: 28px;
+  height: 27px;
+}
+.react-flow__minimap {
+  width: 126px;
+  height: 80px;
+  bottom: 37px;
+  border: 1px solid #e1e8df;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.react-flow__attribution {
+  font-size: 8px;
+  background: transparent;
+}
+@media (max-width: 850px) {
+  .react-flow__minimap {
+    display: none;
+  }
+}
