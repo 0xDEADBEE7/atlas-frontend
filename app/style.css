@@ -1,0 +1,12 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #19332e; background: #f5f7f4; }
+body { margin: 0; }
+main { max-width: 960px; margin: auto; padding: 32px 24px; }
+header { display: flex; justify-content: space-between; padding-bottom: 24px; border-bottom: 1px solid #d4dfd8; }
+header strong { font-size: 24px; }
+.eyebrow { margin-top: 64px; color: #527367; }
+h1 { font-size: clamp(28px, 5vw, 44px); }
+h2 { font-size: 18px; }
+.activities { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 32px 0; }
+article { background: white; padding: 24px; border: 1px solid #d4dfd8; border-radius: 8px; }
+li { padding: 8px 0; }
+button { font: inherit; cursor: pointer; }
